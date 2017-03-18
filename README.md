@@ -5,10 +5,15 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* Objects
+		* Objects are a collection of key value pairs where the key is a string and the value can be any value type in JavaScript. For example, it could be a string, number, function, etc.
 	* Properties
+		* Properties are like variables within objects which store values.
 	* Methods
+		* Methods are functions accessed through objects.
 	* for in loop
+		* The `for` `in` loop iterates through every key in an object.
 	* dot notation vs bracket notation
+		* Dot notation is generally how properties and methods should be accessed from objects. However, if the key is of unknown type, or, the key is a number, the bracket notation should be used.
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.
